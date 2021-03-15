@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Noto+Sans+JP:wght@300&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/alt-screen-header.css";
+@import "components/user-componet.css";
+@import "components/badge.css";
+@import "components/no-mobile.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chat.css";
+@import "screens/timeline.css";
+@import "screens/news.css";
+@import "screens/wallet.css";
+
+body {
+  height: 200vh;
+  color: #2e363e;
+  font-family: "Kosugi Maru", sans-serif;
+}
+
+#index-login,
+#chats-screen {
+  height: 100vh;
+}

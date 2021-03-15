@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ニュース</title>
+</head>
+<body>
+  <div class="status-bar__backGround--white"></div>
+
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>圏外</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>7:33</span>
+    </div>
+    <div class="status-bar__column">
+      <span>59%</span>
+      <i class="fas fa-battery-three-quarters fa-2x"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+  
+  <header class="screen-header">
+    <div class="user-component">
+      <div class="user-component__column">
+        <div class="user-component__text">
+          <h4 class="user-component__title">ニュース</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="screen-header__icons">
+        <span><i class="fas fa-bars fa-lg"></i></span>
+    </div>
+  </header>
+
+  <div id="friends-display-search">
+    <div id="friends-display-search__box">
+      <div>
+        <i class="fas fa-search"></i>
+        <span>新型コロナの影響で帰国できず ></span>
+      </div>
+      <div>
+        <i class="fas fa-qrcode"></i>
+      </div>
+    </div>
+  </div>
+
+  <main class="news-body">
+    <!-- 論文   -->
+    <div id="friends-display-link">
+        <div id="friends-display-link__fold">
+          <div>
+            <i class="fas fa-scroll"></i>
+            <span>論文 3</span>
+          </div>
+          <div>
+            <i class="fas fa-chevron-up fa-xs"></i>
+          </div>
+        </div>
+        <div class="news-body__papers">
+            <div class="news-body__papers--paper">
+                <p>LEO（2017）「それはどういう意味でしょうか」.</p>
+            </div>
+            <div class="news-body__papers--paper">
+                <p>LEO（2019）「現代語に残るおかしな構文について」.</p>
+            </div>
+            <div class="news-body__papers--paper">
+                <div>
+                    <p>LEO（2021）「Googleを使って研究してみよう」『雑誌』.</p>
+                </div>
+                <div class="badge badge--news">new</div>
+            </div>
+        </div>
+    </div>
+
+      <!-- ポスター発表 -->
+    <div id="friends-display-link">
+        <div id="friends-display-link__fold">
+          <div>
+            <i class="fas fa-file-powerpoint"></i>
+            <span>ポスター発表 2</span>
+          </div>
+          <div>
+            <i class="fas fa-chevron-up fa-xs"></i>
+          </div>
+        </div>
+        <div class="news-body__posters">
+            <div class="news-body__posters--poster">
+                <p>LEO（2018）「そういう意味では使わないよ」『ワークショップ』於：東京研究所.</p>
+            </div>
+            <div class="news-body__posters--poster">
+                <div>
+                    <p>LEO（2021）「時間というのは不思議なものだ」『2020年度第2回会議』於：Remo.</p>
+                </div>
+                <div class="badge badge--news">new</div>
+            </div>
+        </div>
+    </div>
+
+    　<!-- MISC -->
+    <div id="friends-display-link">
+        <div id="friends-display-link__fold">
+          <div>
+            <i class="fas fa-folder"></i>
+            <span>MISC 2</span>
+          </div>
+          <div>
+            <i class="fas fa-chevron-up fa-xs"></i>
+          </div>
+        </div>
+        <div class="news-body__misc">
+            <div class="news-body__misc--etc">
+                <p>LEO（2020）「用語検索機」.</p>
+            </div>
+            <div class="news-body__misc--etc">
+                <p><a href="https://google.com" target="_blank">Google</a>大好き！</p>
+            </div>
+        </div>   
+    </div>   
+  </main>
+
+  <nav class="nav">
+      <ul class="nav__list">
+          <li class="nav__btn">
+            <div id="nav__body">
+              <div>
+                <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+              </div>
+              <div class="nav__body__txt">
+                <span>ホーム</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav__btn">
+            <div id="nav__body">
+              <div class="nav__body__talk">
+                <a class="nav__link" href="chats.html">
+                <i class="far fa-comment-dots fa-2x"></i></a>
+                <span class="nav__notification badge">5</span>
+              </div>
+              <div class="nav__body__txt">
+                <span>トーク</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav__btn">
+            <div id="nav__body">
+              <div>
+                <a class="nav__link" href="timeline.html">
+                <i class="far fa-clock fa-2x"></i></a>
+              </div>
+              <div class="nav__body__txt">
+                <span>タイムライン</span>
+              </div>
+          </li>
+
+          <li class="nav__btn">
+            <div id="nav__body">
+              <div class="nav__body__news">
+                <a class="nav__link" href="news.html">
+                <i class="fas fa-list-alt fa-2x"></i></a>
+                <div class="nav__check"></div>
+              </div>
+              <div class="nav__body__txt">
+                <span>ニュース</span>
+              </div>
+          </li>
+
+          <li class="nav__btn">
+            <div id="nav__body">
+              <a class="nav__link" href="wallet.html"><i class="far fa-money-bill-alt fa-2x"></i></a>
+            </div>
+            <div class="nav__body__txt">
+              <span>ウォレット</span>
+            </div>
+          </li>
+
+      </ul>
+  </nav>
+
+  <div id="no-mobile">
+    <span>あなたの画面は大きすぎますね！😲<br>
+      もう少し画面を小さくしてください。</span>
+  </div>
+  
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>

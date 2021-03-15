@@ -1,0 +1,131 @@
+#chat-screen,
+.chat-backGroundColor {
+    background-color: #A1B5DA;
+}
+
+.status-bar__backGround--blue {
+  width: 100%;
+  height: 37px;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 10;
+  top: 0px;
+  background-color: #A1B5DA;
+}
+
+.main-chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat__timestamp {
+    color: white;
+    background-color: #879ABA;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+
+.message-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.message-row img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.message__info {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.message__info span {
+    text-align: end;
+
+}
+
+.message__bubble {
+    background-color: white;
+    padding: 13px 8px;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    margin-top: 25px;
+    margin-right: 5px;
+}
+
+.message__time {
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+.message-row--own {
+    justify-content: flex-end;
+}
+
+.message-row--own .message__bubble {
+    background-color: #9DE694;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 15px;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.message-row--own .message__info {
+    flex-direction: row-reverse;
+}
+
+#intentional-margins {
+    padding: 15px;
+}
+
+.reply {
+    position:fixed;
+    bottom: 0;
+    width:100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px 15px;
+    align-items: center;
+}
+
+.reply .reply__column:first-child {
+    width: 15%;
+}
+
+.reply .reply__column:nth-child(2){
+    width: 70%;
+    position: relative;
+}
+.reply .reply__column:last-child{
+    width: 15%;
+}
+
+.reply input {
+    height: 30px;
+    padding-left: 10px;
+    width: 100%;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    border: none;
+}
+
+.reply__column:nth-child(2) i {
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+
+.reply__column:last-child i {
+    position: fixed;
+    right: 19px;
+    bottom: 13.5px;
+}

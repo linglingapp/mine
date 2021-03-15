@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>トーク</title>
+</head>
+
+<body id="chat-screen">
+    <div class="status-bar__backGround--blue"></div>
+
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>圏外</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>7:31</span>
+    </div>
+    <div class="status-bar__column">
+      <span>61%</span>
+      <i class="fas fa-battery-three-quarters fa-2x"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+  
+  <header class="alt-screen-header chat-backGroundColor">
+    <div class="user-component">
+      <div class="user-component__column">
+        <a href="chats.html">
+            <i class="fas fa-chevron-left fa-lg"></i>
+        </a>
+        <div class="user-component__text">
+          <h4 class="user-component__title">듀드</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-phone fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+    </div>
+  </header>
+
+  <main class="main-screen main-chat">
+    <div class="chat__timestamp">
+        2021年3月13日(土)
+      </div>
+    
+    <div class="message-row">
+        <img src="img/dude.jpg" />
+        <div class="message-row__content">
+            <div class="message__info">
+                <p class="message__bubble">
+                  한국어 아침 인사는 왜 '좋은 아침'이라고 합니까? 
+                  </p>
+                <span class="message__time">
+                    午前6:17
+                  </span>
+            </div>
+          </div>
+    </div>
+      
+    <div class="message-row">
+        <img src="img/dude.jpg" />
+        <div class="message-row__content">
+            <div class="message__info">
+                <p class="message__bubble">
+                  이것은 영어의 영향입니까?
+                  </p>
+                <span class="message__time">
+                    午前6:18
+                  </span>
+            </div>
+          </div>
+    </div>
+</main>
+
+<div id="intentional-margins"></div>
+
+  <main class="main-screen main-chat">
+      <div class="chat__timestamp">
+          2021年3月14日(日)
+        </div>
+
+    <div class="message-row">
+          <img src="img/dude.jpg" />
+          <div class="message-row__content">
+              <div class="message__info">
+                  <p class="message__bubble">
+                    여보세요?
+                    </p>
+                  <span class="message__time">
+                      午前10:01
+                    </span>
+              </div>
+            </div>
+    </div>
+      
+      <div class="message-row">
+          <img src="img/dude.jpg" />
+          <div class="message-row__content">
+              <div class="message__info">
+                  <p class="message__bubble">
+                    바쁨입니까?
+                    </p>
+                  <span class="message__time">
+                      午前10:37
+                    </span>
+              </div>
+            </div>
+      </div>
+        
+      <div class="message-row">
+          <img src="img/dude.jpg" />
+          <div class="message-row__content">
+              <div class="message__info">
+                  <p class="message__bubble">
+                    이것은 읽씹입니까?
+                    </p>
+                  <span class="message__time">
+                      午後12:35
+                    </span>
+              </div>
+            </div>
+      </div>
+
+  </main>
+
+  <!-- input-bar -->
+  <form class="reply">
+    <div class="reply__column">
+      <i class="fas fa-plus"></i>
+      <i class="fas fa-camera"></i>
+      <i class="fas fa-image"></i>
+    </div>
+    <div class="reply__column">
+      <input type="text" placeholder="" />
+      <i class="far fa-smile"></i>
+    </div>
+    <div class="reply__column">
+      <i class="fas fa-microphone"></i>
+    </div>
+  </form>
+ 
+  <div id="no-mobile">
+    <span>あなたの画面は大きすぎますね！😲<br>
+      もう少し画面を小さくしてください。</span>
+  </div>
+  
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>

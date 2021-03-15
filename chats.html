@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>トーク</title>
+</head>
+<body id="chats-screen">
+  <div class="status-bar__backGround--white"></div>
+
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>圏外</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>7:31</span>
+    </div>
+    <div class="status-bar__column">
+      <span>61%</span>
+      <i class="fas fa-battery-three-quarters fa-2x"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+  
+  <header class="screen-header">
+    <div class="user-component">
+      <div class="user-component__column">
+        <div class="user-component__text">
+          <h4 class="user-component__title">トーク</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="screen-header__icons">
+        <span><i class="fas fa-video fa-lg"></i></span>
+        <span><i class="fas fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-ellipsis-v fa-lg"></i></span>
+    </div>
+  </header>
+
+  <div id="friends-display-search">
+    <div id="friends-display-search__box">
+      <div>
+        <i class="fas fa-search"></i>
+        <span>検索</span>
+      </div>
+      <div>
+        <i class="fas fa-qrcode"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- FRIEND 1st -->
+  <main class="friends-screen">
+    <a href="dude.html">
+      <div class="friends-screen__channel">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="img/dude.jpg" class="user-component__avatar user-component__avatar--sm" />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">듀드</h4>
+              <h6 class="user-component__subtitle">이것은 읽씹입니까?</h6>
+            </div>
+          </div>
+          <div class="user-component__column__friend">
+              <span class="user-component__time">午後12:35</span>
+              <div class="badge badge--green">5</div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </main>
+
+  <!-- FRIEND 2nd -->
+  <main class="friends-screen">
+    <a href="aiko.html">
+      <div class="friends-screen__channel">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="img/native.jpg" class="user-component__avatar user-component__avatar--sm" />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">aiko</h4>
+              <h6 class="user-component__subtitle">국어사전 디비바라</h6>
+            </div>
+          </div>
+          <div class="user-component__column__friend">
+              <span class="user-component__time">1/10</span>
+          </div>
+        </div>
+      </div>
+    </a>
+  </main>
+
+  <!-- FRIEND 3rd -->
+  <main class="friends-screen">
+    <a href="nerd.html">
+      <div class="friends-screen__channel">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img src="img/nerd.jpg" class="user-component__avatar user-component__avatar--sm" />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">ナードゥ</h4>
+              <h6 class="user-component__subtitle">you still use what?? write in Go!</h6>
+            </div>
+          </div>
+          <div class="user-component__column__friend">
+              <span class="user-component__time">2020/9/27</span>
+          </div>
+        </div>
+      </div>
+    </a>
+  </main>
+
+  <nav class="nav">
+      <ul class="nav__list">
+          <li class="nav__btn">
+            <div id="nav__body">
+              <div>
+                <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+              </div>
+              <div class="nav__body__txt">
+                <span>ホーム</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav__btn">
+            <div id="nav__body">
+              <div class="nav__body__talk">
+                <a class="nav__link" href="chats.html">
+                <i class="fas fa-comment-dots fa-2x"></i></a>
+                <span class="nav__notification badge">5</span>
+              </div>
+              <div class="nav__body__txt">
+                <span>トーク</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav__btn">
+            <div id="nav__body">
+              <div>
+                <a class="nav__link" href="timeline.html">
+                <i class="far fa-clock fa-2x"></i></a>
+              </div>
+              <div class="nav__body__txt">
+                <span>タイムライン</span>
+              </div>
+          </li>
+
+          <li class="nav__btn">
+            <div id="nav__body">
+              <div class="nav__body__news">
+                <a class="nav__link" href="news.html">
+                <i class="far fa-list-alt fa-2x"></i></a>
+                <div class="nav__check"></div>
+              </div>
+              <div class="nav__body__txt">
+                <span>ニュース</span>
+              </div>
+          </li>
+
+          <li class="nav__btn">
+            <div id="nav__body">
+              <a class="nav__link" href="wallet.html"><i class="far fa-money-bill-alt fa-2x"></i></a>
+            </div>
+            <div class="nav__body__txt">
+              <span>ウォレット</span>
+            </div>
+          </li>
+
+      </ul>
+  </nav>
+  
+  <div id="no-mobile">
+    <span>あなたの画面は大きすぎますね！😲<br>
+      もう少し画面を小さくしてください。</span>
+  </div>
+  
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>

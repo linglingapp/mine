@@ -1,0 +1,16 @@
+.news-body {
+    height: 150vh;
+}
+
+.news-body__papers--paper,
+.news-body__posters--poster,
+.news-body__misc--etc {
+    padding-top: 20px;
+}
+
+.news-body__papers--paper,
+.news-body__posters--poster {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

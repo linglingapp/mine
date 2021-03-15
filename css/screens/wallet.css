@@ -1,0 +1,53 @@
+#wallet-nav {
+    display:flex;
+    justify-content:center;
+}
+
+.wallet-body {
+    display:flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.wallet__nlp h4 {
+    padding: 10px 0px 10px 0px;
+}
+
+.wallet__nlp--title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.screen-header__icons span {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.wallet__nlp--content {
+    display:flex;
+    flex-direction: column;
+}
+
+.wallet__nlp--content div {
+    display: flex;
+    align-items: center;
+    padding: 0px 5px 5px 0px;
+}
+
+.wallet__nlp--content--img img {
+    width: 65px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 10%;
+}
+
+.wallet__teaching-and-working--content--img img {
+    border: none;
+    width: 45px;
+}
+
+
+#natural-language,
+#computer-language,
+#teaching-and-working {
+    scroll-margin-top: 100px;
+}

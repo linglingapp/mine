@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>タイムライン</title>
+</head>
+<body>
+  <div class="status-bar__backGround--white"></div>
+
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>圏外</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>7:32</span>
+    </div>
+    <div class="status-bar__column">
+      <span>60%</span>
+      <i class="fas fa-battery-three-quarters fa-2x"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+  
+  <header class="screen-header">
+    <div class="user-component">
+      <div class="user-component__column">
+        <div class="user-component__text">
+          <h4 class="user-component__title">タイムライン</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="screen-header__icons">
+        <span><i class="fas fas fa-bell fa-lg"></i></span>
+    </div>
+  </header>
+
+  <main class="friends-screen__timeline">
+    <div class="friends-screen__channel">
+      <div class="user-component" id="timelineFunction">
+        <div class="user-component__column">
+          <img src="img/cccv.jfif" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">Seo Mincheolがプロフィールを変更しました。</h4>
+          </div>
+        </div>
+        <div>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+      </div>
+    </div>
+    
+    <div class="timeline__body">
+      <div class="timeline__body--backGroundImg">
+        <img src="img/cccv.jfif" />
+      </div>
+      <div class="timeline__body--texts timeline__body--texts--colorChange">
+        <h4>Seo Mincheol</h4>
+        <span>プロフィールを更新しました！</span>
+      </div>
+      <div class="timeline__body--frontImg">
+        <img src="img/cccv.jfif" />
+      </div>
+    </div>
+    <div class="timeline__body--stamp">
+      <i class="fas fa-user fa-xs"> 3月14日 午後7:32</i>
+    </div>
+
+    <!-- Second -->
+    <div class="friends-screen__channel">
+      <div class="user-component" id="timelineFunction">
+        <div class="user-component__column">
+          <img src="img/me.jpg" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">Seo Mincheolがプロフィールを変更しました。</h4>
+          </div>
+        </div>
+        <div>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+      </div>
+    </div>
+    
+    <div class="timeline__body">
+      <div class="timeline__body--backGroundImg">
+        <img src="img/me.jpg" />
+      </div>
+      <div class="timeline__body--texts">
+        <h4>Seo Mincheol</h4>
+        <span>プロフィールを更新しました！</span>
+      </div>
+      <div class="timeline__body--frontImg">
+        <img src="img/me.jpg" />
+      </div>
+    </div>
+    <div class="timeline__body--stamp">
+      <i class="fas fa-user fa-xs"> 3月14日 午後6:49</i>
+    </div>
+
+     <!-- Third -->
+     <div class="friends-screen__channel">
+      <div class="user-component" id="timelineFunction">
+        <div class="user-component__column">
+          <img src="img/me.jpg" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">Seo Mincheolがプロフィールを変更しました。</h4>
+          </div>
+        </div>
+        <div>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <nav class="nav">
+      <ul class="nav__list">
+          <li class="nav__btn">
+            <div id="nav__body">
+              <div>
+                <a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a>
+              </div>
+              <div class="nav__body__txt">
+                <span>ホーム</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav__btn">
+            <div id="nav__body">
+              <div class="nav__body__talk">
+                <a class="nav__link" href="chats.html">
+                <i class="far fa-comment-dots fa-2x"></i></a>
+                <span class="nav__notification badge">5</span>
+              </div>
+              <div class="nav__body__txt">
+                <span>トーク</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav__btn">
+            <div id="nav__body">
+              <div>
+                <a class="nav__link" href="timeline.html">
+                <i class="fas fa-clock fa-2x"></i></a>
+              </div>
+              <div class="nav__body__txt">
+                <span>タイムライン</span>
+              </div>
+          </li>
+
+          <li class="nav__btn">
+            <div id="nav__body">
+              <div class="nav__body__news">
+                <a class="nav__link" href="news.html">
+                <i class="far fa-list-alt fa-2x"></i></a>
+                <div class="nav__check"></div>
+              </div>
+              <div class="nav__body__txt">
+                <span>ニュース</span>
+              </div>
+          </li>
+
+          <li class="nav__btn">
+            <div id="nav__body">
+              <a class="nav__link" href="wallet.html"><i class="far fa-money-bill-alt fa-2x"></i></a>
+            </div>
+            <div class="nav__body__txt">
+              <span>ウォレット</span>
+            </div>
+          </li>
+
+      </ul>
+  </nav>
+  
+  <div id="no-mobile">
+    <span>あなたの画面は大きすぎますね！😲<br>
+      もう少し画面を小さくしてください。</span>
+  </div>
+
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>トーク</title>
+</head>
+
+<body id="chat-screen">
+    <div class="status-bar__backGround--blue"></div>
+
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>圏外</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>7:31</span>
+    </div>
+    <div class="status-bar__column">
+      <span>61%</span>
+      <i class="fas fa-battery-three-quarters fa-2x"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+  
+  <header class="alt-screen-header chat-backGroundColor">
+    <div class="user-component">
+      <div class="user-component__column">
+        <a href="chats.html">
+            <i class="fas fa-chevron-left fa-lg"></i>
+        </a>
+        <div class="user-component__text">
+          <h4 class="user-component__title">ナードゥ</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-phone fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+    </div>
+  </header>
+
+  <main class="main-screen main-chat">
+      <div class="chat__timestamp">
+          2020年9月27日(日)
+        </div>
+      
+      <div class="message-row">
+          <img src="img/nerd.jpg" />
+          <div class="message-row__content">
+              <div class="message__info">
+                  <p class="message__bubble">
+                    what is your favourite language?
+                    </p>
+                  <span class="message__time">
+                      午後1:37
+                    </span>
+              </div>
+            </div>
+      </div>
+
+      <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <p class="message__bubble">
+                        Python is the best
+                    </p>
+                    </p>
+                    <span class="message__time">
+                        既読
+                        <br>
+                        午後5:07
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="img/nerd.jpg" />
+            <div class="message-row__content">
+                <div class="message__info">
+                    <p class="message__bubble">
+                        you still use what?? write in Go!
+                      </p>
+                    <span class="message__time">
+                        午後5:08
+                      </span>
+                </div>
+              </div>
+        </div>
+  </main>
+
+  <!-- input-bar -->
+  <form class="reply">
+    <div class="reply__column">
+      <i class="fas fa-plus"></i>
+      <i class="fas fa-camera"></i>
+      <i class="fas fa-image"></i>
+    </div>
+    <div class="reply__column">
+      <input type="text" placeholder="" />
+      <i class="far fa-smile"></i>
+    </div>
+    <div class="reply__column">
+      <i class="fas fa-microphone"></i>
+    </div>
+  </form>
+ 
+  <div id="no-mobile">
+    <span>あなたの画面は大きすぎますね！😲<br>
+      もう少し画面を小さくしてください。</span>
+  </div>
+  
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>
