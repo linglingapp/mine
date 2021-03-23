@@ -40,11 +40,19 @@
 }
 
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(--green);
+}
+
+h1 {
+  color: var(--green);
+}
+
+#desc {
+  padding-top: 10px;
 }
 
 #login-form input[type="submit"] {
-  background-color: #C8C8C8;
+  background-color: #c8c8c8;
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
@@ -68,7 +76,7 @@
 }
 
 #splash-screen {
-  background-color: #4EC564;
+  background-color: #4ec564;
   color: white;
   position: absolute;
   height: 100vh;
@@ -85,7 +93,7 @@
 #splash-screen span {
   position: absolute;
   font-size: 45px;
-  color:#4EC564;
+  color: #4ec564;
   font-weight: 900;
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 2s;
